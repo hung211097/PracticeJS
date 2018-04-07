@@ -1,0 +1,77 @@
+.main
+{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 456px;
+  height: 269px;
+}
+
+.nut
+{
+  text-align: center;
+}
+
+#play_pause
+{
+  width: 6%;
+  cursor: pointer;
+}
+
+.some_images
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.khungvien
+{
+  border: 2px solid !important;
+  padding: 5px;
+  border-color: black !important;
+}
+
+.hinh
+{
+  margin-left: 21px;
+  cursor: pointer;
+  width: auto;
+  float: left;
+  transition: 0.3s ease-in-out;
+  opacity: 0.5;
+}
+
+.border-image
+{
+  border: 2px solid;
+  padding: 5px;
+  border-color: transparent;
+}
+
+.hinh:hover
+{
+  box-shadow: 0px 2px 11px 2px;
+  opacity: 1 !important;
+}
+
+#mainPic
+{
+  animation: appear 0.6s ease-in-out;
+}
+
+.xuathien
+{
+  animation: appear 0.3s ease-in-out;
+}
+
+@-webkit-keyframes appear
+{
+  from
+  {
+    opacity: 0;
+  }
+  to
+  {
+    opacity: 1;
+  }
+}
