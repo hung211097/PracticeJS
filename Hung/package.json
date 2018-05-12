@@ -1,0 +1,18 @@
+{
+  "name": "hung",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mongo.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.9",
+    "express": "~4.15.5",
+    "mongodb": "~3.0.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
